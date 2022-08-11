@@ -4,7 +4,7 @@ const app = express();
 const port = 5033;
 
 app.get('/', (req, res) => {
-	res.send('test');
+	res.send('JWT test');
 });
 
 app.listen(port, () => {
